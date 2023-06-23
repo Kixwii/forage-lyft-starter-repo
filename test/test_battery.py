@@ -2,7 +2,7 @@ from datetime import datetime
 import unittest
 from Battery.nubbin_battery import NubbinBattery
 from Battery.spindler_battery import SpindlerBattery
-from utils import add_years_to_date
+
 
 class TestNubbin(unittest.TestCase):
     def test_battery_should_not_be_serviced_max(self):
